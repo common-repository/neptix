@@ -1,0 +1,129 @@
+.neptix_wrap {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	display: table;
+	width: 100%;
+	position: relative;
+}
+.row > div {
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+	padding: 10px;
+}
+.row > div:first-child {
+	padding-left: 0;
+}
+.row > div:last-child {
+	padding-right: 0;
+}
+.row > div.t { vertical-align: top; }
+.row > div.m { vertical-align: middle; }
+.row > div.b { vertical-align: bottom; }
+.row > div.col-12 { width: 100%; }
+.row > div.col-11 { width: 91.66%; }
+.row > div.col-10 { width: 83.33%; }
+.row > div.col-9 { width: 75%; }
+.row > div.col-8 { width: 66.66%; }
+.row > div.col-7 { width: 58.33%; }
+.row > div.col-6 { width: 50%; }
+.row > div.col-5 { width: 41.66%; }
+.row > div.col-4 { width: 33.33%; }
+.row > div.col-3 { width: 25%; }
+.row > div.col-2 { width: 16.66%; }
+.row > div.col-1 { width: 8.33%; }
+
+.ta_left { text-align: left; }
+.ta_right { text-align: right; }
+.ta_center { text-align: center; }
+.ta_justify { text-align: justify; }
+
+.neptix_notification {
+	background: #81B52A;
+	color: #FFF;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	box-shadow: inset 4px 0px 0 rgba(255,255,255,.2);
+}
+.neptix_notification.neptix_notification_error {
+	background: #B83A21;
+}
+
+#neptix_logo {
+	text-align: center;
+	margin: 20px 0;
+}
+.n_box {
+	background: #f9f9f9;
+	border: 1px solid #dedede;
+	margin-bottom: 18px;
+}
+.n_box .n_title {
+	background: #f5f5f5;
+	padding: 10px 15px;
+	border-bottom: 1px solid #dedede;
+}
+.n_box .n_content {
+	padding: 10px 15px;
+}
+.n_box .n_content input[type=text],
+.n_box .n_content select {
+	width: 100%;
+}
+.n_box p.big {
+	font-size: 28px;
+	margin: 0;
+}
+.n_box input.field {
+	width: 100%;
+}
+.n_box input[type=radio] {
+	vertical-align: middle;
+}
+.n_box .apikey_input {
+	padding: 8px 15px;
+	text-align: center;
+}
+.n_box .input_group {
+	display: table;
+	width: 100%;
+}
+.n_box .input_group input {
+	display: table-cell;
+	width: 100%;
+	margin: 0;
+	border-radius: 5px 0 0 5px;
+}
+.n_box .input_group span {
+	display: table-cell;
+	width: 32px;
+	background-color: #EEE;
+	margin-left: -1px;
+	border: 1px solid #DDDDDD;
+	border-left: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+.n_box .input_group span:hover {
+	background-color: #DDD;
+}
+.n_box .button {
+	height: 38px;
+    line-height: 40px;
+    padding: 0 50px 1px;
+}
+span.ico_picker {
+	background: url(images/color-picker.png) no-repeat center center;
+}
+span.ico_text {
+	text-align: center;
+}
+.neptix_footer {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
